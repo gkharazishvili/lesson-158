@@ -3,14 +3,10 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: nginx
+  name: nginx-new
   namespace: prod
 spec:
-<<<<<<< HEAD
-  replicas: 5
-=======
   replicas: 2
->>>>>>> cb602d890ae0691f2cc70e9ea593da24ae76de82
   selector:
     matchLabels:
       app: nginx
