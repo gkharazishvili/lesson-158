@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: nginx
-  name: nginx
+  name: nginx-new
   namespace: prod
 spec:
   replicas: 20
