@@ -1,0 +1,3 @@
+resources:
+  - prod-app.yaml
+  - test-app.yaml
