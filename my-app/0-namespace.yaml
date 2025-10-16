@@ -1,4 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  naem: prod
+  name: prod

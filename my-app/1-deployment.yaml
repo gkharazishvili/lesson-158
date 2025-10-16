@@ -19,4 +19,4 @@ spec:
       - image: gkharazishvili/nginx:v0.1.0
         name: nginx
         ports:
-          - containerPort: 80 
+          - containerPort: 79 
