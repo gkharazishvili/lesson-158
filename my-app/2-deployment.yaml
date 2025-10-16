@@ -6,7 +6,7 @@ metadata:
   name: nginx-new
   namespace: prod
 spec:
-  replicas: 20
+  replicas: 2
   selector:
     matchLabels:
       app: nginx
